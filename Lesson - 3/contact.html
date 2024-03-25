@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact me</title>
+  </head>
+  <body>
+    <section>
+      <h2>I'd really like to hear from you! 😊</h2>
+
+      <form>
+        <fieldset>
+          <legend>Contact me by filling out this form</legend>
+          <p>
+            <label for="firstName">First Name:</label>
+            <input
+              type="text"
+              placeholder="Enter your first name"
+              required
+              id="firstName"
+            />
+          </p>
+          <p>
+            <label for="lastName">Last Name:</label>
+            <input
+              type="text"
+              placeholder="Enter your last name"
+              required
+              id="lastName"
+            />
+          </p>
+          <p>
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              placeholder="Enter your email"
+              required
+              id="email"
+            />
+          </p>
+          <p>
+            <label for="phone">Phone:</label>
+            <input
+              type="tel"
+              placeholder="Enter your phone number"
+              required
+              id="phone"
+            />
+          </p>
+          <p>
+            <label for="password">Password</label>
+            <input
+              type="password"
+              placeholder="Enter your password"
+              required
+              id="password"
+            />
+          </p>
+          <p>
+            <label for="country">Your Country:</label>
+            <select name="country" id="" required id="country">
+              <option value="bangladesh" selected>Bangladesh</option>
+              <option value="india">India</option>
+            </select>
+          </p>
+          <p>Are you interested in Web development:</p>
+          <input
+            type="radio"
+            id="interested"
+            name="interested-in-Web-development"
+            value="interested"
+          />
+          <label for="interested">Interested</label>
+          <br />
+          <input
+            type="radio"
+            id="not-interested"
+            name="interested-in-Web-development"
+          />
+          <label for="not-interested">Not Interested</label>
+          <br />
+          <br />
+          <label for="message">Message:</label>
+          <br />
+          <br />
+          <textarea
+            name="message"
+            id=""
+            cols="30"
+            rows="5"
+            placeholder="Your message"
+          ></textarea>
+          <br />
+          <br />
+          <button type="submit" formaction="home.html">Submit</button>
+        </fieldset>
+      </form>
+      <br />
+      <hr />
+      <h2>I'd like to know about some of your personal information 🤗</h2>
+      <fieldset>
+        <legend>Personal information</legend>
+        <input type="checkbox" name="pet" id="dog" />
+        <label for="dog">Dog</label>
+        <br />
+        <input type="checkbox" name="pet" id="cat" />
+        <label for="cat">Cat</label>
+        <br />
+        <input type="checkbox" name="pet" id="other" />
+        <label for="other">Other</label>
+      </fieldset>
+      <br />
+      <button><a href="home.html">Back to home</a></button>
+      <button><a href="about.html">Back to learn more about me</a></button>
+    </section>
+  </body>
+</html>
